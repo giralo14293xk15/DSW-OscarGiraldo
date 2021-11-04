@@ -1,0 +1,40 @@
+header{
+   background-color: #171010;  
+   color: aliceblue;  
+   text-align: center;
+}
+nav{
+    background-color:  #362222;  
+    color: aliceblue;
+}
+section{
+    background-color: #423F3E;
+    color: aliceblue;
+    grid-column: 1/4;  
+    text-align: center;
+    text-align: justify;
+}
+aside{
+    background-color: #2B2B2B;
+    color:darkorange;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #171010;
+    color: aliceblue;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+} 
+article{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: gold;
+}
+h6{
+    background-color:gray;
+   text-align:initial;
+}
